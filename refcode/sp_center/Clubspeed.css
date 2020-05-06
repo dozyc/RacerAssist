@@ -1,0 +1,760 @@
+
+a:link
+{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #000;
+}
+a:visited
+{
+    color: white;
+}
+a:hover
+{
+    color: red;
+    
+}
+a:active
+{
+    color: white;
+}
+
+body
+{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+table{
+    border: none;
+    border-spacing: 0px;
+}
+
+.logo
+{
+     	/*  background:url(http://clubspeed.com/img/Logo_Grey.png) ; width: 100%; height: 100; */	 	
+}
+H1
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+H2
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+}
+
+.ProSkillLeader {
+    font-size: 30px;
+    border: none;
+}
+
+.ProSkillLeaderHeader{
+    font-size: 30px;
+    color: #df272d;
+}
+
+.ProSkillPointsHeader{
+    font-size: 24px;
+    color: #df272f;
+}
+
+.ProSkillRankHeader{
+    color: #df272f;
+    border: none;
+}
+
+.ItemTitle{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #DF272D; 
+}
+
+.Normal a{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    border: none;
+    text-align: center;
+}
+
+.Normal {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    border: none;
+    text-align: center;
+}
+
+.TableStyle
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 26px;
+    color: White;
+    width: 100%;
+    /* border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid; */
+}
+
+.TableStyle2
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 26px;
+    color: #000000;
+    width: 100%;
+    border: none;
+    /* border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid; */
+}
+
+.Head{
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+.TableHeaderStyle
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    /*line-height: 12px;*/
+    color: #df272d;
+    background-color: #1f1f1f;
+    
+}
+.TableSelectedItemStyle
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /* font-weight: bold; */
+    line-height: 20px;
+    color: #FFF;
+    background-color: #df272d;
+    height: 24;
+}
+.TableSelectedItemStyle a:hover
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFF;
+    background-color: #df272d;
+    height: 24;
+    vertical-align: bottom;
+    padding-top: 2px;
+}
+.TableSelectedItemStyle a:visited
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #FFF;
+    background-color: #df272d;
+    height: 24;
+    vertical-align: bottom;
+    
+}
+.TableSelectedItemStyle a:link
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #FFF;
+    background-color: #df272d;
+    height: 24;
+    vertical-align: bottom;
+    
+}
+.TableItemStyle
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #000000;
+    background-color: #d9d9d9;
+    height: 24;
+}
+.AlternateItemStyle
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #000000;
+    background-color: #FFFFFF;
+    height: 24;
+
+}
+
+.RankColumnStyle
+{
+    width: 2%;
+    text-align: center;
+    border: none;
+    /* color: #000000; */
+     /* display:none; */
+}
+.RacerNameColumnStyle 
+{
+    width: 25%;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    border: none;
+    /* color: #000; */
+    /* display:none; */
+}
+.LapTimeColumnStyle
+{
+    width: 15%;
+    border: none;
+     /* display:none; */
+}
+.KartColumnStyle
+{
+    width: 8%; 
+    border: none;
+    /* display:none; */
+}
+.RPMColumnStyle
+{
+    width: 15%;
+    border: none;
+     /* display:none; */
+}
+.DateColumnStyle
+{
+    width: 15%; 
+    border: none;
+    /* display:none; */
+}
+.CityColumnStyle
+{
+    width: 15%; 
+    border: none;
+    /* display:none;   */
+}
+
+/***************** Login Page *********************/
+.FirstNameColumnStyle
+{
+    width: 15%; /* display:none; */
+}
+.LastNameColumnStyle
+{
+    width: 15%; /* display:none; */
+}
+.EmailColumnStyle
+{
+    width: 25%; /* display:none; */
+}
+.ButtonStyle
+{
+    width: 120px;
+    height: 36px;
+    font-size: small;
+    font-weight: bold;
+}
+.TextboxStyle
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: White;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+}
+.LabelStyle
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+.WarningTextStyle
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background-color: black;
+    color: red;
+    font-weight: normal;
+}
+
+/**************************************/
+
+
+.leaderTopTime
+{
+    background: url(images/laptime_leaderboard.jpg);
+    width: 300;
+    height: 100;
+}
+.leaderTopTimeYear
+{
+    background: url(images/laptime_leaderboard.jpg);
+    width: 300;
+    height: 100;
+}
+.leaderTopSpeedLimit
+{
+    background: url(images/RPMLeaderBoard.jpg);
+    width: 300;
+    height: 100;
+}
+.FastLapLeader
+{
+    border-collapse: collapse;
+}
+.FastLapLeader td
+{
+    text-align: center;
+    border: none;
+}
+
+.dg{
+    background-color: #3f3f3f;
+}
+.HeatResultsCell
+{
+    height: 39px;
+    border: none;
+}
+.HeatResultsLeftCell
+{
+    height: 24px;
+    width: 120px;
+    /* border-right: 0px red solid !important; */
+}
+.HeatResultsRightCell
+{
+    height: 24px;
+    /* border-left: 0px red solid !important; */
+}
+.RaceResults
+{
+    border-collapse: collapse;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.RaceResults td
+{
+    /* border: 1px gray solid; */
+    border-collapse: collapse;
+    text-align: center;
+    /* background-color: #3f3f3f; */
+    margin-bottom: 10px;
+    border-bottom: 1px;
+}
+
+.RegularRow{
+    background-color: #222222;
+}
+
+.RegularRowAlt
+{
+    background-color: #333333;
+}
+.Top3WinnersRow{
+    background-color:#222222;
+}
+.Top3WinnersRowAlt{
+    background-color: #3f3f3f;
+}
+
+.Top3WinnersRow .Racername
+{
+    text-align: left;
+    font-size: 24px;
+    margin-top: 25px;   
+}
+
+.Top3WinnersRow .Laps span
+{
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+}
+.Top3WinnersRow .Gap span
+{
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+}
+.Top3WinnersRow .AvgLap span
+{
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+}
+.Top3WinnersRow .RPM span
+{
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+    
+}
+.Top3WinnersRow .RPMDiff span
+{
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+    
+}
+
+.Top3WinnersRowAlt .Racername
+{
+    text-align: left;
+    font-size: 24px;
+    margin-top: 25px; 
+}
+
+.Top3WinnersRowAlt .Laps span
+{
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+    
+}
+.Top3WinnersRowAlt .Gap span
+{
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+    
+}
+.Top3WinnersRowAlt .AvgLap span
+{
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+    
+}
+.Top3WinnersRowAlt .RPM span
+{
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+    
+}
+.Top3WinnersRowAlt .RPMDiff span
+{
+    display: block;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+    
+  
+}
+.RegularRow span
+{
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+    
+}
+
+.RegularRowAlt span
+{
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+    
+}
+.HeaderRow span
+{
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+}
+
+.Racername a:link, .Racername a:hover, .Racername a:visited
+{
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 24px !important;
+    font-weight: normal;
+    color: #df272d;
+}
+
+td.position{
+    width:50px;
+}
+
+td.plusminus{
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    text-align: right;
+}
+
+td.rpmdiff{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.containerTable td
+{
+    /* border: 1px gray solid; */
+}
+.LapTimesContainer
+{
+    width: 100%;
+    border: 0px gray solid;
+}
+.LapTimesContainer td
+{
+    border: 0px gray solid;
+}
+.LapTimes
+{
+    margin: 0 auto;
+    border: 0px gray solid;
+    text-align: center;
+    font-family: Tahoma,Geneva,sans-serif;
+}
+.LapTimesRowAlt
+{
+    background-color: #333333;
+    font-family: Tahoma,Geneva,sans-serif;
+}
+
+/**************Live Score Additionals**********************/
+.winnerPic
+{
+    height: 160px;
+    width: 170px;
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
+.winnerStyle
+{
+    color: #FFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+.secondPlacePic
+{
+    height: 130px;
+    widows: 140px;
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
+.thirdPlacePic
+{
+    height: 120px;
+    width: 130px;
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
+.footer
+{
+    left: 0px;
+    bottom: 0px;
+    color: white;
+    background-color: Red;
+}
+.leftAdv
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 30%;
+    vertical-align: middle;
+    color: White;
+    font-size: 14px;
+}
+.p
+{
+    background-color: #C11E17;
+}
+.clubSpeed
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    height: 40px;
+    widows: 40%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #000;
+    color: White;
+}
+.liveScoreHeader
+{
+    width: 40%;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: White;
+    font-weight: bold;
+    height: 40px;
+}
+.y
+{
+    background-color: #C11E17;
+}
+.labelStyle
+{
+    text-align: center;
+    color: #DF272D;
+    vertical-align: text-top;
+}
+.title
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    width: 250px;
+    left: 5px;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+}
+.leftTableCell
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 30%;
+    vertical-align: bottom;
+    text-align:right;
+}
+.rightTableCell
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 30%;
+    vertical-align: bottom;
+    text-align:left;
+}
+.centerTabeCell
+{
+    width: 20%;
+    text-align: center;
+    vertical-align: bottom;
+}
+.podiumCell
+{
+    text-align:center;
+}
+.winnerName
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    height: 24px;
+    text-align: center;
+}
+
+.winnerStyle div
+{
+    text-align:center;
+    font-size: 20px;
+}
+
+.secondPlaceName
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    vertical-align: top;
+    text-align:center;
+}
+.secondPlaceName div
+{
+    margin-left: 50%;
+    text-align:center;
+}
+.thirdPlaceName
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    vertical-align: top;
+    text-align:center;
+}
+.thirdPlaceName div
+{
+    margin-right: 50%;
+    text-align:center;
+}
+.racertime
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    width: 180px;
+    position: absolute;
+    left: 75px;
+    top: 69px;
+    height: 24px;
+}
+
+.imgStyle
+{
+    z-index: -1;
+}
+
+
+.borderStyle
+{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 12px;
+    color: White;
+    width: 80%;
+    height: 14px;
+}
+.backImage
+{
+    background-image: url('images/menu_bg.png');
+    background-repeat: repeat-x;
+    visibility: visible;
+    color:black;
+}
+
+
+.NewTableStyle
+{
+    font-family: Verdana, Arial, sans-serif;
+    /*font-size: 10px;
+    font-weight: normal;
+    line-height: 12px;*/
+    color: White;
+    width: inherit;
+    border: none;
+}
+table.NewTableStyle tr td{padding:10px;}
+.x
+{
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid;
+}
+.hide{display:none;}
+
+table td{
+border:none;
+}

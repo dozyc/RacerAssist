@@ -2,9 +2,19 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1"><title>
-	Clubspeed scoreboard
-</title><link href="Clubspeed.css" type="text/css" rel="Stylesheet" />
+<head id="Head1">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58290407-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-58290407-2');
+</script>
+    <title>
+	Clubspeed Live Scores
+</title><link href="Clubspeed.css" type="text/css" rel="Stylesheet" /><link href="../SP_Center/css/bootstrap.css" type="text/css" rel="Stylesheet" />
     <script src="Scripts/jquery-1.6.4.min.js" type="text/javascript"></script>
     <script src="Scripts/json2.min.js" type="text/javascript"></script>
     <script src="Scripts/jquery.signalR.min.js" type="text/javascript"></script>
@@ -188,22 +198,22 @@
         
     </script>
 </head>
-<body>
+<body style="background: #000;">
     <form name="form1" method="post" action="./livescore.aspx" id="form1">
 <div>
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1MzIyODg3NzAPZBYCAgMPZBYEAgEPEA8WBh4ORGF0YVZhbHVlRmllbGQFB1RyYWNrTm8eDURhdGFUZXh0RmllbGQFCVRyYWNrTmFtZR4LXyFEYXRhQm91bmRnZBAVBAdLYXJ0aW5nBFRFU1QKS2lkcyBUcmFjawRBdWRpFQQBMQEyATMBNBQrAwRnZ2dnZGQCAw8PFgIeB1Zpc2libGVoZGRkEDbErD1PIPcKf8wfR01UvAq/LT1JDvVxPHuLBivl+/c=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTMyNTQ2OTE2OQ9kFgICAw9kFgQCAQ8QDxYGHg5EYXRhVmFsdWVGaWVsZAUHVHJhY2tObx4NRGF0YVRleHRGaWVsZAUJVHJhY2tOYW1lHgtfIURhdGFCb3VuZGdkEBUEB0thcnRpbmcEVEVTVApLaWRzIFRyYWNrBEF1ZGkVBAExATIBMwE0FCsDBGdnZ2dkZAIDDw8WAh4HVmlzaWJsZWhkZGRbDpqaF64HjI8a7GWH+n0un/MJT/XLWS4CUlmMUHW4LQ==" />
 </div>
 
 <div>
 
 	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="052DA306" />
-	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAVPTrAsLTsDfccvCrLKjfJBpj3ZbD9z2C3vDOiFtD5M5G8Fx62gyL0tdXKMSQTmkECJztVioSVMcG6Mwgg+cfX+tVzmntOhVWJ7aS6Zx9InKFznjmj0AOOX1tD9SmnjDjS/W2ExL65SviGVZUCkP5uA" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAUbBL33/Uj+aI4Xw39jJQXspj3ZbD9z2C3vDOiFtD5M5G8Fx62gyL0tdXKMSQTmkECJztVioSVMcG6Mwgg+cfX+tVzmntOhVWJ7aS6Zx9InKIUuyLgmskZpB3heSdjMmvWQ0uksry2JE3ftaKn8Gmyq" />
 </div>
-    <table class="NewTableStyle" align="Center" style="border-color: black; width: 100%">
+    <table class="NewTableStyle" align="Center" width: 100%">
         <tr>
             <td rowspan="3">
-                <span id="lblSelectTrack" style="color:Red;">Select Track here </span>
-                <select name="ddlTrack" id="ddlTrack">
+                <span id="lblSelectTrack" style="color:Gray;">Select Track here </span>
+                <select name="ddlTrack" id="ddlTrack" class="btn-sm btn-secondary">
 	<option value="1">Karting</option>
 	<option value="2">TEST</option>
 	<option value="3">Kids Track</option>
@@ -245,8 +255,7 @@
                 <th>
                 </th>
                 <th>
-                    <span id="lblWinner">
-                        Winner</span>
+                    
                 </th>
                 <th>
                 </th>
@@ -281,6 +290,7 @@
                 </td>
                 <td class="winnerStyle">
                     <div>
+                        <span id="lblWinner">Winner</span><br />
                         Winner<br />
                         Kart No:<span id="lblKartNo" style="width: 160px"></span><br />
                         Best Lap: <span id="lblBestLap"></span>
@@ -302,14 +312,14 @@
             </tr>
         </tbody>
     </table>
-    <table style="background-color: Gray; width: 100%; text-align: center">
+    <table style="background-color: #000; width: 100%; text-align: center; margin-top:20px;">
         <tbody>
             <tr>
                 <td class="leftAdv" align="center">
-                    CS Live Score Powered by:
+                    <!-- CS Live Score Powered by: -->
                 </td>
                 <td class="clubSpeed">
-                    <a href="http://www.clubspeed.com" target="_blank">www.clubspeed.com</a>
+                    <a href="http://www.clubspeed.com" style="color:#2f2f2f;" target="_blank">www.clubspeed.com</a>
                 </td>
                 <td class="leftAdv">
                     <span class="leftAdv" id="lblTrackRecord"></span>
